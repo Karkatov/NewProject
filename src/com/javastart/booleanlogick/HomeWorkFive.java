@@ -19,11 +19,11 @@ public class HomeWorkFive {
         }
 
         int number = input.nextInt();
-        for (int element: array) {
+
+        for (int element : array) {
             if (element == number) {
                 System.out.println("Число совпало - " + number);
-            } else {
-                System.out.println("Число не совпало!");
+                break;
             }
         }
     }

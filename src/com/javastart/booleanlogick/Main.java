@@ -13,7 +13,7 @@ public class Main {
         System.out.println("Сумма: " + sum);
         System.out.println("Остаток от деления: " + (firstNumber % secondNumber));
 
-        if (10 == 10) {
+        if (true) {
             differenceFunction(firstNumber, secondNumber);
         }
     }
